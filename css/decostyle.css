@@ -17,12 +17,17 @@ header {
     background-color: #f6f2f1;
     color: rgb(205, 226, 161);
     padding: 20px;
+    animation-name: cambioColor;
+    animation-duration: 5s;
+
 }
 
 .logo img {
     height: 80px;
     max-width: 100%;
+    
 }
+
 
 .logo {
     display: flex;
@@ -38,18 +43,21 @@ header {
 
 
 
+
 .navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
     color: rgb(226, 239, 189);
+    
 }
 
 .navbar li a {
     margin: 10px;
     text-decoration: none;
     color: rgb(225, 193, 233);
+    
 }
 
 .navbar :hover {
@@ -154,6 +162,7 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
 .formulario {
     display: flex;
     align-items: center;
@@ -167,16 +176,16 @@ footer {
     background-color: #ebd1de;
     flex-direction: column;
     color: rgb(188, 138, 183);
-    font-weight:bolder;
-    
+    font-weight: bolder;
 
-     
-    
+
+
+
 }
 
 .margin-label {
     padding: 20px;
-    font-weight:900;
+    font-weight: 900;
 }
 
 .resize {
@@ -192,7 +201,7 @@ footer {
 }
 
 .formulario button {
-    
+
     bottom: 10px;
     left: 5px;
     border-radius: 10px;
@@ -201,10 +210,33 @@ footer {
     font-family: "poppins";
     box-shadow: 0 4px 0 rgb(244, 212, 240);
     cursor: pointer;
-    
+
 }
 
-/* Al lado de este form, va a ir otro card  */
+/* Animaciones */
+
+.logo img:hover {
+    transform: scale(0.5);
+    transition: 3s;
+}
+
+@keyframes cambioColor {
+    0% {
+        background-color: #f9f1ee;
+    }
+    25% {
+        background-color: #f6eae7;
+    }
+    50% {
+        background-color: #fae8e5;
+    }
+    100% {
+        background-color: #f6f2f1;
+    }
+}
+
+
+
 
 /* ------------------------------------------------------------------------------------------ */
 
@@ -248,7 +280,8 @@ footer {
     .footer-icon {
         font-size: 20px;
     }
-    .formulario{
+
+    .formulario {
         height: fit-content;
     }
 }
