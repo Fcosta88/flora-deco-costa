@@ -44,23 +44,27 @@ header {
 
 
 
-.navbar {
+.navbar-nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
     color: rgb(226, 239, 189);
+    background-color: #f6f2f1;
     
 }
 
-.navbar li a {
+.navbar-nav  a {
     margin: 10px;
     text-decoration: none;
     color: rgb(225, 193, 233);
+    background-color: #f6f2f1;
+    border-color: #f9f1ee;
+    
     
 }
 
-.navbar :hover {
+.navbar-nav :hover {
     color: rgb(205, 226, 161);
     ;
 
@@ -72,36 +76,11 @@ main {
     padding: 10px;
 }
 
-.slider {
-    display: flex row;
-    width: 100%;
-    margin: 10px 0;
-    overflow: hidden;
-    padding: 0;
-
-
+/* Slider */
+.carousel-item :hover {
+    filter: blur(2px);
+    transition: .3s;
 }
-
-.slider ul {
-    display: flex;
-    animation: cambio 20s infinite alternate linear;
-    animation-direction: alternate;
-
-}
-
-.slider li {
-    width: 100%;
-    list-style: none;
-
-}
-
-.slider img {
-    width: 33%;
-    height: 33%;
-    object-fit: cover;
-
-}
-
 
 
 /* Footer */
@@ -244,6 +223,7 @@ footer {
 /* DISPOSITIVOS CHICOS */
 
 @media (max-width:480px) {
+    
     header {
         flex-direction: column;
         justify-content: center;
@@ -265,6 +245,8 @@ footer {
         flex-direction: column;
         row-gap: (1rem, 3rem);
     }
+
+    
 
 
 }
