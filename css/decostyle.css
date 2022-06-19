@@ -17,15 +17,14 @@ header {
     background-color: #f6f2f1;
     color: rgb(205, 226, 161);
     padding: 20px;
-    animation-name: cambioColor;
-    animation-duration: 5s;
+    
 
 }
 
 .logo img {
     height: 80px;
     max-width: 100%;
-    
+
 }
 
 
@@ -44,31 +43,47 @@ header {
 
 
 
-.navbar-nav{
+.navbar-nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
     color: rgb(226, 239, 189);
     background-color: #f6f2f1;
-    
+
 }
 
-.navbar-nav  a {
+.navbar-nav a {
     margin: 10px;
     text-decoration: none;
     color: rgb(225, 193, 233);
     background-color: #f6f2f1;
     border-color: #f9f1ee;
-    
-    
+
+
 }
 
 .navbar-nav :hover {
     color: rgb(205, 226, 161);
+    
     ;
 
 }
+
+.navbar-toggler-icon {
+    background-color: #f6f2f1;
+    color: #f6f2f1;
+}
+
+.container-fluid {
+    background-color: #f6f2f1;
+}
+
+.color {
+    background-color: #f6f2f1;
+}
+
+
 
 /* Main con Imagenes en Slider */
 main {
@@ -76,12 +91,77 @@ main {
     padding: 10px;
 }
 
-/* Slider */
+.contenedor h2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(182, 120, 193);
+    background-color: rgb(249, 245, 248);
+    height: 50px;
+    
+}
+.contenedor h3 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(131, 225, 215);
+    background-color: rgb(249, 245, 248);
+    height: 50px;
+    padding: 50px;
+    background-color: #f6eae7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contenedor-programs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    align-items: center;
+    
+}
+
+
+.program {
+    width: 30%;
+    background-color: rgb(244, 244, 232);
+}
+
+.program img {
+    width: 100%;
+    background-size: cover;
+   
+
+}
+
+.program h4 {
+    text-align: center;
+    color: rgb(182, 120, 193);
+    font-weight: bolder;
+    background-color: rgb(246, 235, 221);
+    font-size: 22px;
+    
+}
+
+
+
+
+.program p {
+    font-size: 18px;
+    color: #dba1be;
+    text-align: center;
+    
+}
+
+
+/* Slider con Bootstrap */
 .carousel-item :hover {
     filter: blur(2px);
     transition: .3s;
+    padding: 0;
+    background-size: cover;
 }
-
+ 
 
 /* Footer */
 
@@ -203,12 +283,15 @@ footer {
     0% {
         background-color: #f9f1ee;
     }
+
     25% {
         background-color: #f6eae7;
     }
+
     50% {
         background-color: #fae8e5;
     }
+
     100% {
         background-color: #f6f2f1;
     }
@@ -223,7 +306,7 @@ footer {
 /* DISPOSITIVOS CHICOS */
 
 @media (max-width:480px) {
-    
+
     header {
         flex-direction: column;
         justify-content: center;
@@ -246,7 +329,7 @@ footer {
         row-gap: (1rem, 3rem);
     }
 
-    
+
 
 
 }
@@ -265,5 +348,9 @@ footer {
 
     .formulario {
         height: fit-content;
+    }
+    .contenedor h2 {
+        font-size: 20px;
+        color: rgb(227, 193, 205);
     }
 }
