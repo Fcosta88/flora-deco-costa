@@ -365,3 +365,6 @@ footer {
 .program p  {
     font-size: 16px;
 }
+body {
+    background-color: rgb(246, 235, 221);  
+}
