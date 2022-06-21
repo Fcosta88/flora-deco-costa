@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-/* Header */
+/* HEADER DE TODAS LA PAGINAS */
 
 header {
     display: flex;
@@ -66,7 +66,7 @@ header {
 
 .navbar-nav :hover {
     color: rgb(205, 226, 161);
-    
+
     ;
 
 }
@@ -76,82 +76,53 @@ header {
     color: #f6f2f1;
 }
 
-.container-fluid {
-    background-color: #f6f2f1;
-}
 
 
 
 
-
-/* Main con Imagenes en Slider */
+/* INDEX Main con Imagenes en Slider */
 main {
     background-color: rgb(249, 245, 248);
     padding: 10px;
+    font-weight: normal;
 }
 
 .contenedor h2 {
     text-align: center;
     font-size: 30px;
-    color: rgb(182, 120, 193);
-    background-color: rgb(249, 245, 248);
-    height: 50px;
-    
+    margin-top: 30px;
+    color: #dba1be;
 }
+
 .contenedor h3 {
     text-align: center;
-    font-size: 50px;
-    color: rgb(131, 225, 215);
-    background-color: rgb(249, 245, 248);
-    height: 50px;
-    padding: 50px;
-    background-color: #f6eae7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    font-size: 22px;
+    margin-top: 15px;
+    color: #dba1be;
 }
 
 .contenedor-programs {
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
-    align-items: center;
-    
 }
-
 
 .program {
     width: 30%;
-    background-color: rgb(244, 244, 232);
+    
+    
 }
-
 .program img {
     width: 100%;
-    background-size: cover;
-   
-
+    border-radius:20px ;
 }
-
-.program h4 {
-    text-align: center;
-    color: rgb(182, 120, 193);
-    font-weight: bolder;
-    background-color: rgb(246, 235, 221);
-    font-size: 16px;
-    
-}
-
-
-
 
 .program p {
-    font-size: 18px;
-    color: #dba1be;
+    font-size: 16px;
     text-align: center;
     
+    
 }
-
 
 /* Slider con Bootstrap */
 .carousel-item :hover {
@@ -160,12 +131,12 @@ main {
     padding: 0;
     background-size: cover;
 }
- 
 
-/* Footer */
+
+/* FOOTER */
 
 footer {
-    background-color: rgb(195, 170, 219);
+    background-color:#eacce4;;
     height: 100px;
 }
 
@@ -188,10 +159,16 @@ footer {
     color: rgb(249, 236, 219)
 }
 
-/* Inspo  */
-/* Galeria de Imagenes con Css Grid */
+/* Página INSPO  */      /* Galeria de Imagenes con Css Grid */
 
 
+.contenedor h5 {
+    text-align: center;
+    color: #eacce4;
+    margin-top: 40px;
+    font-size: 30px;
+    
+}
 .galeria {
     width: 100%;
     display: grid;
@@ -210,70 +187,127 @@ footer {
 
 .galeria :hover {
     opacity: 0.9;
-    color: rgb(196, 164, 128);
+    color: rgb(232, 169, 206);
 }
 
-/* Seccion Contacto main*/
-/* Formulario */
-
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.formulario {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 50px;
-    width: 350px;
-    height: 450px;
-    border: rgb(201, 234, 168) 4px solid;
-    border-radius: 15px;
-    background-color: #ebd1de;
-    flex-direction: column;
-    color: rgb(188, 138, 183);
-    font-weight: bolder;
 
 
-
-
-}
- 
-
-.margin-label {
+/* Pagina CONTACTO Googles maps y form*/  
+.padre h4 {
+    text-align: center;
+    color: #cf8dc3;
     padding: 20px;
-    font-weight: 900;
 }
 
-.resize {
-    resize: none;
-}
-
-
-
-.formulario h2 {
-    color: rgb(188, 138, 183);
-    font-size: 33px;
-    font-weight: bold;
-}
-
-.formulario button {
-
-    bottom: 10px;
-    left: 5px;
+.contact-in {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border: solid 2px rgb(236, 214, 245);
     border-radius: 10px;
-    padding: 5px;
-    border: none;
-    font-family: "poppins";
-    box-shadow: 0 4px 0 rgb(244, 212, 240);
-    cursor: pointer;
+    background-color: #eee4e2;
+    justify-content: space-around;
 
 }
 
-    /* Mapa Google */
+
+
+.contact-form-txt {
+    width: 100%;
+    height: 40px;
+
+    color: #dba1be;
+    border: 2px solid rgb(236, 214, 245);
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+
+
+}
+
+.contact-form-textarea {
+    display: flex;
+    width: 100%;
+    height: 160px;
+    color: #dba1be;
+    border: 3px solid rgb(236, 214, 245);
+    border-radius: 30px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    resize: none;
+
+
+}
+
+
+
+.contact-form-textarea::placeholder {
+    color: #f0c8be;
+}
+
+.contact-form-btn {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: rgb(222, 187, 232);
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.contact-map {
+    display: flex;
+    justify-content: space-around;
+}
+
+.horarios {
+    color: #cf8dc3;
+}
+
+
+/* Pagina NOSOTROS */
+
+.contenedor-nosotros h2{
+    font-size: 40px;
+}
+.contenedor-nosotros h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    color: #dba1be;
+}
+
+.contenedor-nosotros h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 15px;
+    color: #dba1be;
+}
+
+.contenedor-programs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.program {
+    width: 30%;
+}
+.program img {
+    width: 100%;
+}
+
+.program p {
+    font-size: 20px;
+    line-height: 24px;
+    
+}
+
+
+
 
 
 /* Animaciones */
@@ -289,11 +323,11 @@ footer {
     }
 
     25% {
-        background-color: #f6eae7;
+        background-color: #faf4f2;
     }
 
     50% {
-        background-color: #fae8e5;
+        background-color: #f8f3f2;
     }
 
     100% {
@@ -316,13 +350,28 @@ footer {
         justify-content: center;
         align-items: center;
     }
-
+.logo {
+    font-size: 20px;
+}
     .logo img {
         height: 40px;
         width: 40px;
     }
 
+    .contact-in {
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        padding: 20px;
 
+    }
+
+    .contact-map iframe {
+        width: fit-content;
+        display: flex;
+        align-items: center;
+
+    }
 
     .seguinos {
         display: none;
@@ -332,13 +381,39 @@ footer {
         flex-direction: column;
         row-gap: (1rem, 3rem);
     }
+    .footer-icon {
+        font-size: 22px;
+    }
+    
+    .contact-form-btn {
+        width: 100%;
+        border: none;
+        outline: none;
+        border-radius: 50px;
+        background-color: rgb(222, 187, 232);
+        text-transform: uppercase;
+        padding: 10px 0;
+        font-size: 14px;
+        
+    }
 
-
-
+    .contenedor-programs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        flex-direction: column;
+        font-size: 15px;
 
 }
 
+
 @media (max-width:450px) {
+
+    .logo img {
+        height: 30px;
+        width: 30px;
+    }
     .navbar {
         display: flex;
         flex-direction: column;
@@ -350,21 +425,29 @@ footer {
         font-size: 20px;
     }
 
-    .formulario {
+    .contact-in {
         height: fit-content;
+
     }
+
+    .contact-map iframe {
+        width: fit-content;
+        display: flex;
+        align-items: center;
+    }
+
     .contenedor h2 {
         font-size: 20px;
         color: rgb(227, 193, 205);
     }
 }
+
 .contenedor h3 {
     font-size: 18px;
 }
 
-.program p  {
+.program p {
     font-size: 16px;
 }
-body {
-    background-color: rgb(246, 235, 221);  
+
 }
