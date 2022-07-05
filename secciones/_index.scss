@@ -1,0 +1,54 @@
+main {
+    background-color: rgb(249, 245, 248);
+    padding: 10px;
+    font-weight: normal;
+}
+
+.contenedor h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #dba1be;
+    font-family: $textoPrincipalh2;
+    font-size: $textoTamano;
+}
+
+.contenedor h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 15px;
+    color: #dba1be;
+}
+
+.contenedor-programs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.program {
+    width: 30%;
+
+
+}
+
+.program img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.program p {
+    font-size: 16px;
+    text-align: center;
+
+
+}
+
+/* Slider con Bootstrap */
+.carousel-item :hover {
+    filter: blur(2px);
+    transition: .3s;
+    padding: 0;
+    background-size: cover;
+}
+

@@ -1,0 +1,73 @@
+.padre h4 {
+    text-align: center;
+    color: #cf8dc3;
+    padding: 20px;
+}
+
+.contact-in {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border: solid 2px rgb(236, 214, 245);
+    border-radius: 10px;
+    background-color: #eee4e2;
+    justify-content: space-around;
+
+}
+
+
+
+.contact-form-txt {
+    width: 100%;
+    height: 40px;
+
+    color: #dba1be;
+    border: 2px solid rgb(236, 214, 245);
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+
+
+}
+
+.contact-form-textarea {
+    display: flex;
+    width: 100%;
+    height: 160px;
+    color: #dba1be;
+    border: 3px solid rgb(236, 214, 245);
+    border-radius: 30px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    resize: none;
+
+
+}
+
+
+
+.contact-form-textarea::placeholder {
+    color: #f0c8be;
+}
+
+.contact-form-btn {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: rgb(222, 187, 232);
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.contact-map {
+    display: flex;
+    justify-content: space-around;
+}
+
+.horarios {
+    color: #cf8dc3;
+}
