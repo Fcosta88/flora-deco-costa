@@ -1,0 +1,30 @@
+.contenedor h5 {
+    text-align: center;
+    color: #eacce4;
+    margin-top: 40px;
+    font-size: 30px;
+
+}
+
+.galeria {
+    width: 100%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5rem;
+    row-gap: 5rem;
+    padding: 10px;
+}
+
+.galeria img {
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.galeria :hover {
+    opacity: 0.9;
+    color: rgb(232, 169, 206);
+}
+
+

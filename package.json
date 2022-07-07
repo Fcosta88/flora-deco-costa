@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "node-css": "^0.1.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  },
+  "name": "flora-deco-web.html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fcosta88/flora-deco-costa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fcosta88/flora-deco-costa/issues"
+  },
+  "homepage": "https://github.com/Fcosta88/flora-deco-costa#readme",
+  "devDependencies": {},
+  "description": ""
+}

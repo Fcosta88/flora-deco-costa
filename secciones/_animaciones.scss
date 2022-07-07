@@ -1,0 +1,22 @@
+logo img:hover {
+    transform: scale(0.5);
+    transition: 3s;
+}
+
+@keyframes cambioColor {
+    0% {
+        background-color: #f9f1ee;
+    }
+
+    25% {
+        background-color: #faf4f2;
+    }
+
+    50% {
+        background-color: #f8f3f2;
+    }
+
+    100% {
+        background-color: #f6f2f1;
+    }
+}

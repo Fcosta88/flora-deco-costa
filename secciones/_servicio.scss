@@ -1,0 +1,81 @@
+.grilla {
+    display: grid;
+    grid-template-columns: 7fr 8fr 8fr 5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "aside section1 section1 section1"
+        "aside section2 section2 section2"
+        "aside section3 section3 section3";
+    background-color: #f6f4ec;
+    color: #f9f0ee;
+    font-weight: bold;
+
+}
+
+.aside {
+    grid-area: aside;
+    background-image: url(/imagenes/aside.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-position: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+
+}
+
+.section1 {
+    grid-area: section1;
+    background-image: url(/imagenes/section1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    color: #fbfafb;
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.section2 {
+    grid-area: section2;
+    background-image: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    color: #332831;
+    font-size: 18px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.section3 {
+    grid-area: section3;
+    background-image: url(/imagenes/section3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    color: #faf1f8;
+    font-size: 18px;
+    padding: 10px;
+    margin: 5px;
+}
+
