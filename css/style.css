@@ -92,7 +92,11 @@ main {
   margin-top: 30px;
   color: #dba1be;
   font-family: "lobster";
+<<<<<<< HEAD
   font-size: 35px; }
+=======
+  font-size: 40px; }
+>>>>>>> refs/remotes/origin/main
 
 .contenedor h3 {
   text-align: center;
@@ -479,6 +483,10 @@ header {
   margin: 10px;
   text-decoration: none;
   color: #e1c1e9;
+<<<<<<< HEAD
+=======
+  background-color: #f5ece9;
+>>>>>>> refs/remotes/origin/main
   border-color: #f9f1ee; }
 
 .navbar-nav :hover {

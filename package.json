@@ -1,5 +1,6 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "node-css": "^0.1.0",
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.19"
@@ -7,6 +8,15 @@
   "name": "flora-deco-web.html",
   "version": "1.0.0",
   "main": "index.js",
+=======
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.18"
+  },
+  "name": "copia-de-flora-deco-web.html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+>>>>>>> refs/remotes/origin/main
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
@@ -22,6 +32,9 @@
     "url": "https://github.com/Fcosta88/flora-deco-costa/issues"
   },
   "homepage": "https://github.com/Fcosta88/flora-deco-costa#readme",
+<<<<<<< HEAD
   "devDependencies": {},
+=======
+>>>>>>> refs/remotes/origin/main
   "description": ""
 }
